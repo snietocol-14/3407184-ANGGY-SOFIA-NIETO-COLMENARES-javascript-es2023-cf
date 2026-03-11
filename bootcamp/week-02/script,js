@@ -1,0 +1,35 @@
+const DOMAIN_NAME = "Intercambio de habilidades";
+const offerName = "Diseño de interfaces en Figma";
+const offerCategory = "Diseño UX/UI";
+const hoursPerWeek = 6;
+const isAvailableNow = false;
+const currentMentor = null;
+// Cuando escribí eso pensé: ¿No sería mejor let en vez de const? La idea sería
+// que el valor de la variable sea reasignado cuando haya un mentor
+console.log("===========================");
+console.log(`FICHA DE DATOS: ${DOMAIN_NAME}`);
+console.log("===========================");
+console.log("");
+console.log(`Nombre:            ${offerName}`);
+console.log(`Categoría:         ${offerCategory}`);
+console.log(`Horas por semana:  ${hoursPerWeek}`);
+console.log(`Disponible:        ${isAvailableNow}`);
+console.log("");
+console.log("--- Tipos de datos ---");
+console.log("typeof offerName:       ", typeof offerName);
+console.log("typeof hoursPerWeek:    ", typeof hoursPerWeek);
+console.log("typeof isAvailableNow:  ", typeof isAvailableNow);
+console.log("");
+console.log("--- Conversiones ---");
+const hoursAsText = String(hoursPerWeek);
+console.log("hoursPerWeek como texto:     ", hoursAsText);
+console.log("typeof hoursPerWeek string:  ", typeof hoursAsText);
+console.log("");
+console.log("--- Valor nulo ---");
+console.log("Mentor actual:", currentMentor);
+console.log("typeof currentMentor:", typeof currentMentor); //quería probar el bug jaja
+console.log("¿Es null?:", currentMentor === null);
+console.log("");
+console.log("===========================");
+console.log("FIN DE FICHA");
+console.log("===========================");
