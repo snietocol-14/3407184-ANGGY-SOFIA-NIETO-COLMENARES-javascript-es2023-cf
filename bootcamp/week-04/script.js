@@ -21,9 +21,7 @@ const mainCard = `
 ${separator}
   ${DOMAIN_NAME.toUpperCase()} — FICHA DE USUARIO
 ${separator}
-Nombre del usuario:               ${entityName}
-Nombre en mayúsculas:             ${entityNameUpper}
-Nombre en minúsculas:             ${entityNameLower}
+Nombre del usuario:               ${entityNameUpper}
 Categoría:                        ${entityCategory}
 Código:                           ${entityCode}
 Prefijo:                          ${codePrefix}
