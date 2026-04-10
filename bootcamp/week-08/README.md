@@ -1,10 +1,10 @@
-## 📋 Dominio: Intercambio de Habilidades
+##  Dominio: Intercambio de Habilidades
 
 Esta aplicación de intercambio de habilidades es una plataforma donde los usuarios ofrecen y solicitan sesiones de aprendizaje a cambio de créditos virtuales llamados SkillCoins (SC). Cada sesión representa una habilidad que un instructor pone a disposición de la comunidad. Las sesiones tienen una categoría, un costo en SkillCoins, una calificación promedio y un estado (activa o pausada).
 
 ---
 
-## Operaciones implementadas
+##Operaciones implementadas
 
 - **`push`** — agrega una nueva sesión al catálogo
 - **`unshift`** — destaca una sesión colocándola al inicio del catálogo
@@ -18,7 +18,7 @@ Esta aplicación de intercambio de habilidades es una plataforma donde los usuar
 
 ---
 
-## Estructura del proyecto
+##Estructura del proyecto
 
 ```
 week-08/
@@ -29,8 +29,9 @@ week-08/
 
 ---
 
-# Cómo ejecutarlo
+#Cómo ejecutarlo
 
 ```bash
 node week-08/script.js
 ```
+                  
