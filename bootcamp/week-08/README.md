@@ -4,7 +4,7 @@ Esta aplicación de intercambio de habilidades es una plataforma donde los usuar
 
 ---
 
-##Operaciones implementadas
+## Operaciones implementadas
 
 - **`push`** — agrega una nueva sesión al catálogo
 - **`unshift`** — destaca una sesión colocándola al inicio del catálogo
@@ -18,7 +18,7 @@ Esta aplicación de intercambio de habilidades es una plataforma donde los usuar
 
 ---
 
-##Estructura del proyecto
+## Estructura del proyecto
 
 ```
 week-08/
@@ -34,4 +34,3 @@ week-08/
 ```bash
 node week-08/script.js
 ```
-                  
