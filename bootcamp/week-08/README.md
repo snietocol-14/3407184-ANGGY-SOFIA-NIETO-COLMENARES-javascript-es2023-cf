@@ -29,7 +29,7 @@ week-08/
 
 ---
 
-#Cómo ejecutarlo
+# Cómo ejecutarlo
 
 ```bash
 node week-08/script.js
